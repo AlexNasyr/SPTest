@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SPTest.Model.Interfaces;
-using SPTest.Model.TestDb;
-using System;
+﻿using System;
 using System.Collections;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using SPTest.Model.Interfaces;
+using SPTest.Model.TestDb;
 
 namespace SPTest.Controllers {
     [ApiController]

@@ -1,13 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
-using SPTest.Model;
-using SPTest.Model.Interfaces;
-using SPTest.Model.TestDb;
-using System;
+﻿using System;
 using System.Collections;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Xml.Linq;
+using Microsoft.EntityFrameworkCore;
+using SPTest.Model;
+using SPTest.Model.Interfaces;
+using SPTest.Model.TestDb;
 
 namespace SPTest.Services {
     public class TestDBService : ITestDbService {
